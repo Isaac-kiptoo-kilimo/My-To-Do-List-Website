@@ -1,32 +1,4 @@
 
-
-// items.style.backgroundColor='grey'
-// addBtn=document.getElementById('addBtn');
-
-
-// addBtn.addEventListener('click',(e)=>{
-//     e.preventDefault();
-//     // input.style.backgroundColor="blue"
-//     let input=document.getElementById('input');
-//     console.log(addBtn)
-//  if(input.value==""){
-//      alert('Add atleast one item')
-//  }
-// //  input=document.getElementById('input')
-
-//  let item=document.getElementById('item');
-//  item.innerHTML=input.value
-
-
-// })
-
-
-// let myNode=document.createElement('li');
-// let i;
-// for(let i=0;i<myNode.clientHeight;i++)
-
-// create a node list and append it to each item list
-
 let myNodeList=document.querySelectorAll('li');
 let i;
 for(i=0;i<myNodeList.length;i++){
