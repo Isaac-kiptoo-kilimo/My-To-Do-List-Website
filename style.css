@@ -80,3 +80,16 @@ ul li:hover{
     color: #fff;
     text-decoration: line-through;
 }
+.checked::before{
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    height: 15px;
+    width: 8px;
+    transform: rotate(45deg);
+
+}
