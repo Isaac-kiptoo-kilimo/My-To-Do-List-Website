@@ -20,4 +20,12 @@ for(i=0;i<close.length;i++){
     })
 }
 
-// 
+// add a checked symbol when clicked
+
+let list=document.querySelector('ul');
+
+list.addEventListener('click',(e)=>{
+    if(e.currentTarget.tagName==='li'){
+        e.currentTarget.classList.toggle('checked');
+    }
+},false)
